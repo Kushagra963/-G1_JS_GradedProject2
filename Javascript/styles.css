@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#app {
+    width: 300px;
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#resume-container {
+    margin-top: 20px;
+}
+
+#prev-btn, #next-btn {
+    display: none;
+}
